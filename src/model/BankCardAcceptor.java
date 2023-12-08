@@ -3,7 +3,7 @@ package model;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class CashReceiver {
+public class BankCardAcceptor {
     private static Scanner sc = new Scanner(System.in);
     private int cardNumber;
     private int code;
