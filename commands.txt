@@ -33,3 +33,8 @@
 31) git push
 32) git add command.txt
 33)git commit -m "add text to file"
+34) git add src/AppRunner.java
+35)git commit -m "updated AppRunner.java"
+36)git add commands.txt
+37) git commit -m "updated commands txt"
+38)git push
