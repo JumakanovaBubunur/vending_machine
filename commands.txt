@@ -21,3 +21,6 @@
 19) touch src/model/VendingMachine
 20) git add src/model/VendingMachine
 21) git commit -m "create new class for payment logic"
+22) так как изменила название файла CashReceiving на BankCardAcceptor - git add src/model/BankCardAcceptor
+23) git commit -m "changed the name of file to more appropriate one"
+24)git push
