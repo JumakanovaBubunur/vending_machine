@@ -4,4 +4,9 @@
 4) $ touch commands.txt
 5) $ git add commands.txt
 6) $ git commit -m "add commands.txt file"
-7) 
+7) $ git status
+8) $ git add commands.txt
+9) $ git commit -m "add commands to file"
+   [home_work_25 05cde54] add commands to file
+    1 file changed, 7 insertions(+)
+10)    
