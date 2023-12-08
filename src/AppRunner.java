@@ -29,14 +29,16 @@ public class AppRunner {
 
     }
 
-    public static VendingMachine choosePaymentType(VendingMachine[] paymentTypes) throws InputMismatchException, NumberFormatException{
+    public static VendingMachine choosePaymentType(VendingMachine[] paymentTypes) throws InputMismatchException, NumberFormatException, ArrayIndexOutOfBoundsException{
         Scanner sc = new Scanner(System.in);
         System.out.println("Выберите номер способа оплаты: \n (1) Банковской картой\n (2): Монетами ");
-        int num = sc.nextInt();
-            if (num<=0 || num>2){
-                System.out.println("Такой команды нет!");
-                choosePaymentType(paymentTypes);
-            }
+        int num = 0;
+        try {
+            num = sc.nextInt();
+        }catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Такой команды нет!");
+            choosePaymentType(paymentTypes);
+        }
         return paymentTypes[num-1];
     }
 
@@ -44,7 +46,7 @@ public class AppRunner {
 
         try {
             paymentType = choosePaymentType(paymentTypes);
-        }catch (InputMismatchException | NumberFormatException e){
+        }catch (ArrayIndexOutOfBoundsException | NumberFormatException | InputMismatchException e){
             System.out.println("Неверный формат ввода данных");
             setPaymentType();
         }
