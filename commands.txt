@@ -24,3 +24,12 @@
 22) так как изменила название файла CashReceiving на BankCardAcceptor - git add src/model/BankCardAcceptor
 23) git commit -m "changed the name of file to more appropriate one"
 24)git push
+25) После выполнения задачи git add .
+26) git commit -m "changed file"
+27) git checkout master
+28) git merge home_work_25(Решила конфликты)
+29) git add .
+30) git commit -m "updated files"
+31) git push
+32) git add command.txt
+33)git commit -m "add text to file"
