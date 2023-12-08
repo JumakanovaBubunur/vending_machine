@@ -13,5 +13,11 @@
 11)  git push
 12)  touch src/model/CashReceiver.java
 13)  git add src/model/CashReceiver.java
-14)  git commit -m "create new java file for money receiving logic"
+14)  git commit -m "create new java file for bank card logic"
 15)  git push
+16) После изменений в файле CashReceiver.java и commands.txt git add .
+17) git commit -m "updated file"
+18) git push
+19) touch src/model/VendingMachine
+20) git add src/model/VendingMachine
+21) git commit -m "create new class for payment logic"
