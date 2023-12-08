@@ -1,12 +1,17 @@
-1) $ git clone https://github.com/JumakanovaBubunur/vending_machine.git
-2) $ cd vending_machine
-3) $ git checkout home_work_25
-4) $ touch commands.txt
-5) $ git add commands.txt
-6) $ git commit -m "add commands.txt file"
-7) $ git status
-8) $ git add commands.txt
-9) $ git commit -m "add commands to file"
+1)  git clone https://github.com/JumakanovaBubunur/vending_machine.git
+2)  cd vending_machine
+3)  git checkout home_work_25
+4)  touch commands.txt
+5)  git add commands.txt
+6)  git commit -m "add commands.txt file"
+7)  git status
+8)  git add commands.txt
+9)  git commit -m "add commands to file"
    [home_work_25 05cde54] add commands to file
     1 file changed, 7 insertions(+)
-10)    
+10)  git add .
+11)  git push
+12)  touch src/model/CashReceiver.java
+13)  git add src/model/CashReceiver.java
+14)  git commit -m "create new java file for money receiving logic"
+15)  git push
